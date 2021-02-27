@@ -17,9 +17,9 @@ import datetime
 import math
 import os
 from typing import Callable, Dict, Optional, Tuple
+from tqdm.notebook import tqdm
 
 from .file_utils import ENV_VARS_TRUE_VALUES
-from tqdm import tqdm
 
 # Integrations must be imported before ML frameworks:
 from .integrations import (  # isort: split
